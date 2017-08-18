@@ -58,13 +58,12 @@ class Casa
     
     void muevete2()
     {
-        techo.moveHorizontal(90);
+        techo.moveHorizontal(80);
         ventana.moveRight();
         ventana.moveRight();
         ventana.moveRight();
-        ventana.moveRight();
-        ventana.moveHorizontal(30);
-        pared.moveHorizontal(100);
+        ventana.moveHorizontal(20);
+        pared.moveHorizontal(80);
         puerta.moveRight();
         puerta.moveRight();
         puerta.moveHorizontal(40);
